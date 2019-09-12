@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export DEBIAN_FRONTEND=noninteractive
+
+# Video-Codecs fuer Shotcut installieren, NT 2018-03-14
+
+apt-get -y install libsdl2-2.0.0
+
